@@ -11,7 +11,7 @@
   + Stance_cls_cnn_bert.ipynb: 使用了Bert文件向量的CNN媒體立場分類器(論文中不使用)
   + Stance_cls_lstm.ipynb: LSTM媒體立場分類器(沒有開啟雙向)
   + Stance_cls_svm.ipynb: SVM媒體立場分類器
-  + Stance_cls_svm_bert.ipynb: 使用了Bert文件向量的SVM媒體立場分類器
+  + Stance_cls_svm_bert.ipynb: 使用了Bert文件向量的SVM媒體立場分類器(論文中不使用)
   + thesis_models.py: 以上全部分類器的Pytorch Model都存在這裡。
 
 未完待補
