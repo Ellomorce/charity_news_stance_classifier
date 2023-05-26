@@ -1,0 +1,39 @@
+Experiment SNID,Vector Used,Keywords Amount,Document Vector Methods,Models,Batch Size,Macro-avg. Train Accuracy of Every Epoch in 5 Fold,Macro-avg. Val Accuracy of Every Epoch in 5 Fold,Macro-avg. Train Loss of Every Epoch in 5 Fold,Macro-avg. Val Loss of Every Epoch in 5 Fold,Macro-avg. Accuracy,Macro-avg. Precision,Macro-avg. Recall,Macro-avg. F1-Score
+sexp01,keyword30_sum,30,Sum,SVM,,,,,,0.9168 ,0.9231 ,0.9220 ,0.9210 
+sexp09,keyword30_avg,30,Average,SVM,,,,,,0.9239 ,0.9292 ,0.9296 ,0.9282 
+sexp14,keyword35_sum,35,Sum,SVM,,,,,,0.9111 ,0.9186 ,0.9167 ,0.9151 
+sexp17,keyword35_avg,35,Average,SVM,,,,,,0.9225 ,0.9274 ,0.9285 ,0.9270 
+sexp24,keyword20_sum,20,Sum,SVM,,,,,,0.9309 ,0.9362 ,0.9355 ,0.9350 
+sexp37,keyword20_avg,20,Average,SVM,,,,,,0.9422 ,0.9470 ,0.9463 ,0.9456 
+sexp36,keyword25_sum,25,Sum,SVM,,,,,,0.9168 ,0.9229 ,0.9237 ,0.9214 
+sexp41,keyword25_avg,25,Average,SVM,,,,,,0.9266 ,0.9313 ,0.9345 ,0.9308 
+cexp17,keyword30_sum,30,Sum,CNN,16,1.0000 ,0.9859 ,0.02 ,0.09 ,0.9073 ,0.9057 ,0.9073 ,0.9064 
+cexp18,keyword30_avg,30,Average,CNN,16,1.0000 ,0.9653 ,0.02 ,0.14 ,0.8905 ,0.8846 ,0.8905 ,0.8850 
+cexp32,keyword20_sum,20,Sum,CNN,16,1.0000 ,0.9155 ,0.02 ,0.19 ,0.9206 ,0.9193 ,0.9206 ,0.9198 
+cexp38,keyword20_avg,20,Average,CNN,16,1.0000 ,0.9366 ,0.02 ,0.21 ,0.8850 ,0.8828 ,0.8850 ,0.8816 
+cexp46,keyword35_sum,35,Sum,CNN,16,1.0000 ,0.9507 ,0.05 ,0.14 ,0.9094 ,0.9088 ,0.9094 ,0.9089 
+cexp52,keyword35_avg,35,Average,CNN,16,1.0000 ,0.9296 ,0.02 ,0.23 ,0.8854 ,0.8822 ,0.8854 ,0.8814 
+cexp60,keyword25_sum,25,Sum,CNN,16,1.0000 ,0.9225 ,0.02 ,0.22 ,0.9126 ,0.9127 ,0.9126 ,0.9124 
+cexp70,keyword25_avg,25,Average,CNN,16,1.0000 ,0.9437 ,0.03 ,0.18 ,0.8916 ,0.8907 ,0.8916 ,0.8905 
+lexp06,keyword30_sum,30,Sum,Attention,16,1.0000 ,0.9577 ,0.00 ,0.17 ,0.9194 ,0.9162 ,0.9194 ,0.9174 
+lexp11,keyword30_avg,30,Average,Attention,16,0.9894 ,0.9155 ,0.05 ,0.24 ,0.8267 ,0.8340 ,0.8267 ,0.8287 
+lexp15,keyword35_sum,35,Sum,Attention,16,1.0000 ,0.9648 ,0.00 ,0.14 ,0.9144 ,0.9116 ,0.9144 ,0.9126 
+lexp19,keyword35_avg,35,Average,Attention,16,0.9718 ,0.9014 ,0.09 ,0.30 ,0.8200 ,0.8265 ,0.8200 ,0.8219 
+lexp22,keyword20_sum,20,Sum,Attention,16,1.0000 ,0.9648 ,0.00 ,0.21 ,0.9307 ,0.9297 ,0.9307 ,0.9300 
+lexp26,keyword20_avg,20,Average,Attention,16,1.0000 ,0.9258 ,0.01 ,0.37 ,0.8545 ,0.8596 ,0.8545 ,0.8563 
+lexp32,keyword25_sum,25,Sum,Attention,16,1.0000 ,0.9437 ,0.00 ,0.25 ,0.9174 ,0.9163 ,0.9174 ,0.9166 
+lexp36,keyword25_avg,25,Average,Attention,16,0.9894 ,0.9155 ,0.04 ,0.23 ,0.8283 ,0.8327 ,0.8283 ,0.8295 
+lexp40,keyword30_sum,30,Sum,LSTM,16,1.0000 ,0.9296 ,0.00 ,0.19 ,0.9127 ,0.9102 ,0.9127 ,0.9111 
+lexp42,keyword30_avg,30,Average,LSTM,16,0.9877 ,0.9155 ,0.05 ,0.30 ,0.8284 ,0.8428 ,0.8284 ,0.8315 
+lexp47,keyword35_sum,35,Sum,LSTM,16,1.0000 ,0.9577 ,0.00 ,0.24 ,0.9059 ,0.9058 ,0.9059 ,0.9053 
+lexp50,keyword35_avg,35,Average,LSTM,16,0.9735 ,0.9577 ,0.09 ,0.14 ,0.8172 ,0.8273 ,0.8172 ,0.8200 
+lexp54,keyword20_sum,20,Sum,LSTM,16,1.0000 ,0.9401 ,0.00 ,0.24 ,0.9216 ,0.9190 ,0.9216 ,0.9197 
+lexp58,keyword20_avg,20,Average,LSTM,16,0.9982 ,0.9366 ,0.02 ,0.23 ,0.8494 ,0.8529 ,0.8494 ,0.8507 
+lexp65,keyword25_sum,25,Sum,LSTM,16,1.0000 ,0.9507 ,0.00 ,0.17 ,0.9067 ,0.9090 ,0.9067 ,0.9065 
+lexp69,keyword25_avg,25,Average,LSTM,16,0.9877 ,0.9155 ,0.05 ,0.27 ,0.8390 ,0.8471 ,0.8390 ,0.8414 
+cb03,keyword20_sum,20,Sum,CNN,32,1.0000 ,0.9291 ,0.03 ,0.19 ,0.9093 ,0.9082 ,0.9093 ,0.9080 
+cb09,keyword20_sum,20,Sum,CNN,64,1.0000 ,0.9220 ,0.05 ,0.17 ,0.8961 ,0.8956 ,0.8961 ,0.8957 
+l2b03,keyword20_sum,20,Sum,LSTM,32,1.0000 ,0.9217 ,0.01 ,0.31 ,0.8640 ,0.8757 ,0.8640 ,0.8685 
+l2b08,keyword20_sum,20,Sum,LSTM,64,1.0000 ,0.9217 ,0.02 ,0.27 ,0.8233 ,0.8596 ,0.8233 ,0.8373 
+l3b04,keyword20_sum,20,Sum,Attention,32,1.0000 ,0.9366 ,0.00 ,0.23 ,0.9027 ,0.8997 ,0.9027 ,0.9006 
+l3b07,keyword20_sum,20,Sum,Attention,64,1.0000 ,0.9296 ,0.00 ,0.18 ,0.8893 ,0.8927 ,0.8893 ,0.8903 
