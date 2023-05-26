@@ -99,8 +99,6 @@ class CNN_2(nn.Module):
 """
 Try Bert vectors
 """
-import torch.nn.functional as F
-
 class CNN_bert(nn.Module):
     def __init__(self):
         super(CNN_bert, self).__init__()
